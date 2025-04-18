@@ -2,128 +2,110 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HomePage</title>
+  <title>Web Optimal Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-<section>
-  <div class="container">
-    <nav>
-      <h1>Logo</h1>
-      <ul>
-        <li><a href="" class="pressed">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Blogs</a></li>
-        <li><a href="">Contacts</a></li>
-      </ul>
-    </nav>
-    <div class="article">
-      <h1>Landing Page Website</h1>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-        when an unknown<br> printer took a galley of type and scrambled it to make a type specimen book. </p>
-       
-        <a href="" class="btn">Download Now</a>
 
-      
+  <!-- HERO / HEADER SECTION -->
+  <header class="hero">
+    <div class="container">
+      <nav class="navbar">
+        <h2 class="company">Web Optimal Solutions</h2>
+
+        <button class="hamburger" id="hamburger" aria-label="Menu Toggle">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#" class="pressed">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+      </nav>
+
+      <div class="article">
+        <h1>We Build Exceptional Digital Experiences</h1>
+        <p>At Web Optimal Solutions, we create fast, user-friendly, and modern websites tailored to help your business thrive online. Let’s elevate your digital presence together.</p>
+      </div>
     </div>
+  </header>
 
-  </div>
-</section>
-
-  <div class="heading">
+  <!-- ABOUT SECTION -->
+  <section class="heading" id="about">
     <h1>About Us</h1>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-      when an unknown<br> printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <p>Web Optimal Solutions is a full-service digital agency committed to designing impactful web experiences. With 5+ years of experience, we’ve helped businesses grow through stunning design and solid development.</p>
+  </section>
 
-  </div>
-  <div class="container2">
-    <section class="about">
+  <section class="container2">
+    <div class="about">
       <div class="about-image">
-    
-        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" >
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1470" alt="Team working on web development">
       </div>
-     
       <div class="about-content">
-       
-        <h2>Warm Embrace</h2>
-       
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley <br> of type and scrambled it to make a type specimen book</p>
-         
-          <a href="" class="read-more">Read More</a>
-
+        <h2>Your Vision, Our Mission</h2>
+        <p>We are passionate about transforming ideas into powerful digital solutions. Whether you're launching a startup or scaling an enterprise, our team delivers websites and apps that drive real results.</p>
+        <a href="#contact" class="read-more">Let's Talk</a>
       </div>
+    </div>
+  </section>
 
-    </section>
-  </div>
-
-  <div class="container3">
+  <!-- SERVICES -->
+  <section class="container3" id="services">
     <div class="box">
       <h2>01</h2>
-      <h3>Service One</h3>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry's standard dummy text <br>ever since the 1500s,
-        when an unknown printer took a galley of type and scramble to make it book.</p>
-
+      <h3>Custom Website Design</h3>
+      <p>Responsive, SEO-optimized websites that reflect your brand and engage your audience — built with modern UI/UX best practices.</p>
     </div>
-
     <div class="box">
       <h2>02</h2>
-      <h3>Service Two</h3>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-        when an unknown printer took a galley <br> of type and scramble to make it book.</p>
-
+      <h3>Web & App Development</h3>
+      <p>We develop secure, scalable, and high-performance platforms to power your digital growth.</p>
     </div>
-
     <div class="box">
       <h2>03</h2>
-      <h3>Service Three</h3>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-        when an unknown printer took a galley <br> of type and scramble to make it book.</p>
-
+      <h3>Digital Marketing</h3>
+      <p>Get discovered with SEO, content strategy, and social campaigns that convert traffic into loyal customers.</p>
     </div>
-  </div>
+  </section>
 
-  <div id="portfolio">
-    <h2 class="headings">Our Blogs</h2>
+  <!-- BLOGS -->
+  <section id="portfolio">
+    <h2 class="headings" id="blogs">From Our Blog</h2>
     <div class="gallery">
-        <img src="https://cdn.pixabay.com/photo/2015/11/06/13/25/blog-1027861_640.jpg" alt="">
-        <img src="https://images.yourstory.com/cs/wordpress/2017/02/52-Blog.jpg" alt="">
+      <img src="https://cdn.pixabay.com/photo/2015/11/06/13/25/blog-1027861_640.jpg" alt="5 Website Features Your Business Needs in 2025">
+      <img src="https://images.yourstory.com/cs/wordpress/2017/02/52-Blog.jpg" alt="Why SEO Still Matters">
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footercontainer" id="contact">
+    <div class="socialIcons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-google-plus"></i></a>
+      <a href="#"><i class="fa fa-youtube"></i></a>
     </div>
 
-   
-    
-  </div>
+    <div class="footerNav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#contact">Contacts</a></li>
+      </ul>
+    </div>
 
-  <div class="footercontainer">
-    <!-- <div class="socialIcons">
-      <a href="#" class="fa fa-facebook"></a>
-      <a href=""><i class="fa fa-instagram"></i></a>
-      <a href=""><i class="fa-brands fa-twitter"></i></a>
-      <a href=""><i class="fa-brands fa-google-plus"></i></a>
-      <a href=""><i class="fa-brands fa-youtube"></i></a>
-
-   </div> -->
-   <div class="footerNav">
-    <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Blogs</a></li>
-        <li><a href="">Contacts</a></li>
-    </ul>
-   </div>
-   <div class="footerBottom">
-    <p class="far fa-copyright" >Created By Anastasia Karobia</b> 2023-2024 All rights reserved.</p>
-  </div>
-  </div>
+    <div class="footerBottom">
+      <p>&copy; 2023-2024 Web Optimal Solutions. All rights reserved.</p>
+    </div>
+  </footer>
 
 </body>
 </html>
